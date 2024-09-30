@@ -1,6 +1,6 @@
 // src/App.tsx
 import React from 'react';
-import EnhancedLandingPage from "./app/page.tsx";
+import EnhancedLandingPage from "./app/page";
 
 const App: React.FC = () => {
     return (
