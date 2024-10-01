@@ -71,7 +71,7 @@ export const content = {
     contact: {
         title: "联系我们",
         phone: "17862972447",
-        email: "info@quickretail.com",
-        address: "上海市浦东新区张江高科技园区科苑路88号",
+        email: "caishen@greatonce.com",
+        address: "四川省成都市天府新区",
     },
 }
