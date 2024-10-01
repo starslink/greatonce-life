@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [
         react(),
         EnvironmentPlugin({
-            BASE_URL: process.env.VITE_BASE_URL, // 这里引用 .env 文件中的环境变量
+            BASE_URL: 'http://localhost:5173', // 这里引用 .env 文件中的环境变量
         }),
     ],
     resolve: {
