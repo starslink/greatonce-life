@@ -247,15 +247,15 @@ export default function EnhancedLandingPage() {
                             {content.products.items.map((product, index) => (
                                 <motion.div
                                     key={index}
-                                    className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center"
+                                    className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                                     initial={{opacity: 0, y: 20}}
                                     whileInView={{opacity: 1, y: 0}}
                                     viewport={{once: true}}
                                     transition={{delay: index * 0.2}}
                                 >
                                     <ShoppingBag className="w-12 h-12 text-[#FEC400] mb-4"/>
-                                    <h3 className="text-xl font-bold mb-2 text-center">{product.name}</h3>
-                                    <p className="text-center">{product.description}</p>
+                                    <h3 className="text-xl font-bold mb-2">{product.name}</h3>
+                                    <p>{product.description}</p>
                                 </motion.div>
                             ))}
                         </div>
