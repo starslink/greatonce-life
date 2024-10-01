@@ -46,7 +46,7 @@ export const content = {
     },
     products: {
         title: "我们的产品",
-        description: "在快客零售，我们提供多样化的产品，涵盖日用品、食品饮料和生活服务。每一款产品都经过严格筛选，确保品质与市场需求相匹配。",
+        description: "在宅生活超市零售，我们提供多样化的产品，涵盖日用品、食品饮料和生活服务。每一款产品都经过严格筛选，确保品质与市场需求相匹配。",
         items: [
             {name: "便利食品", description: "新鲜美味，随时享用"},
             {name: "日用百货", description: "品质保证，便捷购买"},
@@ -64,13 +64,13 @@ export const content = {
     testimonials: {
         title: "客户评价",
         items: [
-            {quote: "选择快客零售是我最明智的决定，公司的支持让我快速上手，生意蒸蒸日上！", author: "加盟商C"},
-            {quote: "无论是产品质量还是服务水平，快客零售都让我感到非常满意！", author: "消费者D"},
+            {quote: "选择宅生活超市零售是我最明智的决定，公司的支持让我快速上手，生意蒸蒸日上！", author: "加盟商C"},
+            {quote: "无论是产品质量还是服务水平，宅生活超市零售都让我感到非常满意！", author: "消费者D"},
         ],
     },
     contact: {
         title: "联系我们",
-        phone: "400-123-4567",
+        phone: "17862972447",
         email: "info@quickretail.com",
         address: "上海市浦东新区张江高科技园区科苑路88号",
     },
