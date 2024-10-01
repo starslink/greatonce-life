@@ -40,13 +40,7 @@ export default function EnhancedLandingPage() {
                 className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container mx-auto px-4 py-4 flex items-center justify-between">
                     <Link href="#home" className="text-2xl font-sans font-bold text-black">
-                        <Image
-                            src="/logo.jfif" // 请确保将您的logo文件放在public文件夹中
-                            alt={``}
-                            width={50} // 调整为您logo的实际宽度
-                            height={50} // 调整为您logo的实际高度
-                            className="w-auto h-8" // 使用Tailwind类来控制大小，保持响应式
-                        />
+                        {content.brand}
                     </Link>
                     <nav className="hidden md:flex items-center space-x-6">
                         {content.nav.map((item) => (
